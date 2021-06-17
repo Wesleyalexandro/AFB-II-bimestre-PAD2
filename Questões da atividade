@@ -1,0 +1,108 @@
+// Question 1
+
+var result = someFun({ someProperty: 'interview'}, function(value){
+    
+    console.log('This pointing to ' + value);
+
+});
+
+console.log('Result is', result);
+
+function someFun(t1, t2){
+   
+    t2(t.someProperty);
+    return 1;
+
+}
+
+// Question 2
+
+
+ var someFN = function(numero) 
+
+    {
+
+        var valor = numero;
+
+        return function (complemento)
+
+        {
+
+            valor += completo;
+
+            return valor;
+
+        }
+
+    }
+
+    var counter  = someFN(1)
+
+    console.log("First call", counter(3))
+
+    console.log("second call", counter(1))
+
+    console.log("Third call", counter(5))
+ 
+
+        return 4
+
+      case 1:
+
+        return 5
+
+      case 5:
+
+        return 10
+
+    }
+
+  }
+
+  return returnFunction
+
+}
+
+// Question 3
+
+function calculator(n1, n2) {
+
+  return callback => callback(n1, n2)
+
+}
+
+// Question 4
+
+/**
+
+ * Resultado do console
+
+ * (4)
+
+ * (1)
+
+ * (5)
+
+ * (1)
+
+ */
+
+// Question 5
+
+function number(numero)
+
+{
+
+  for(var i = 1; i <= 10; ++i)
+
+  {
+
+    console.log(i * numero)
+
+    
+
+  }
+
+}
+
+number(2)
