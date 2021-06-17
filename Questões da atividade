@@ -63,13 +63,8 @@ function someFun(t1, t2){
 
 }
 
-// Question 3
 
-function calculator(n1, n2) {
 
-  return callback => callback(n1, n2)
-
-}
 
 // Question 4
 
